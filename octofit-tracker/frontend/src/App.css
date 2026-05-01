@@ -1,0 +1,166 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef5ff 0%, #ffffff 60%, #e6f7ff 100%);
+  color: #14213d;
+}
+
+body {
+  background: #eef5ff;
+}
+
+.navbar {
+  box-shadow: 0 4px 18px rgba(10, 25, 47, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: 700;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #e0f2ff;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.82);
+  margin-left: 0.75rem;
+}
+
+.nav-link.active {
+  color: #ffffff;
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px;
+}
+
+.welcome-page {
+  margin-top: 2rem;
+}
+
+.content-card {
+  border: 0;
+  border-radius: 1.5rem;
+  box-shadow: 0 1.5rem 2.5rem rgba(20, 33, 61, 0.08);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  color: #0f3f7f;
+}
+
+.card {
+  border: none;
+}
+
+.lead {
+  color: #4b5563;
+}
+
+.table {
+  background: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.table thead th {
+  background: #1f5cf3;
+  color: #ffffff;
+  border: none;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e7f1ff;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background-color: #1f5cf3;
+  border-color: #1f5cf3;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #163ea8;
+  border-color: #163ea8;
+}
+
+.btn-outline-secondary {
+  color: #1f5cf3;
+  border-color: #1f5cf3;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: rgba(31, 92, 243, 0.08);
+  border-color: #1f5cf3;
+}
+
+a {
+  color: #1f5cf3;
+}
+
+a:hover {
+  color: #164e9f;
+}
+
+.table-responsive {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #f8fbff;
+  border-bottom: 1px solid #e2e8f0;
+  color: #0f3f7f;
+}
+
+.form-label {
+  color: #1f3a70;
+}
+
+.form-control:focus {
+  border-color: #1f5cf3;
+  box-shadow: 0 0 0 0.15rem rgba(31, 92, 243, 0.25);
+}
+
+.modal-content {
+  border-radius: 1rem;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.modal-title {
+  color: #14213d;
+}
+
+.api-link {
+  text-decoration: none;
+  color: #1f5cf3;
+}
+
+.api-link:hover {
+  color: #164e9f;
+}
